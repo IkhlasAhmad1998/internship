@@ -1,0 +1,11 @@
+i just completed summarizing on English document named: *TRANSPORTATION SERVICES AGREEMENT* , while all 4 models perform reasonably well but here is my opinion based on the generated summary:
+*deepseek* : good but changed some terms (also missed some little details) sometime changes the original terms.
+*gemini* : much better, use of original terms, but if a para contains similar context then shortening too much, follows the document flow and its headings.
+*qwen* : generates summary in its own flow not acc to the document flow. providing a little more detail. but changing the headings
+*gemma* : summarizing multiple headings in a single para. changing of original headings/terms.
+the document i provided has tokens well under every models input token limit. so all the text provided at once to each model and generated the summary of 2048 tokens from each model.
+
+
+claude: good summary, headings are good, but using gui cant asses its performance as cant generate more tokens so looses most of the context
+
+gpt: best
